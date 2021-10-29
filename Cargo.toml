@@ -6,3 +6,6 @@ members = [
     "serde_test",
     "test_suite",
 ]
+
+[patch.crates-io]
+libc = { git = "https://github.com/raoulstrackx/libc.git", branch = "raoul/version_0_2_106" }
